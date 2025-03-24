@@ -1,0 +1,12 @@
+kw1
+UPDATE wagi SET dzien='2025-03-24', czas='16:44:00' WHERE lokalizacje_id = 2 OR lokalizacje_id = 3 OR lokalizacje_id = 4;
+
+
+kw2
+SELECT ulica FROM `lokalizacje`;
+
+kw3
+INSERT INTO `wagi`(`lokalizacje_id`, `waga`, `rejestracja`, `dzien`, `czas`) VALUES ('5',FLOOR(1 + RAND() * (10 - 1 +1)),'DW12345','2025-03-24','16:53:00');
+
+kw4
+SELECT w.rejestracja , w.waga , w.dzien , w.czas, l.ulica FROM `wagi` w INNER JOIN lokalizacje l ON w.lokalizacje_id = l.id WHERE w.waga > 5; 
