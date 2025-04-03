@@ -1,0 +1,60 @@
+*{
+    font-family: Verdana;
+}
+
+.lewy , .prawy {
+    background-color: SeaGreen;
+    color: white;
+    line-height: 150px;
+    height: 260px;
+    font-size: 160%;
+}
+
+.lewy{
+    width: 75%;
+}
+
+.prawy{
+    width: 25%;
+    text-align: center;
+}
+
+.glowny{
+    background-color: MintCream;
+    padding: 80px;
+
+
+}
+
+.jeden , .dwa{
+    background-color: SeaGreen;
+    color: white;
+    width: 50%;
+    height: 70px;
+    text-align: center;
+}
+img{
+    box-shadow: 15px 15px 10px dimgray;
+}
+
+a{
+    text-decoration: none;
+    background-color: mintcream;
+    color: seagreen;
+    padding: 15px;
+    line-height: 70px;
+
+}
+
+header{
+    display: flex;
+}
+
+footer{
+    display: flex;
+}
+
+
+button , input{
+    margin-bottom: 20px;
+}
